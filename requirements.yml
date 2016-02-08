@@ -22,6 +22,11 @@
 - name: astropy-helpers
   version: 1.1.1
 
+- name: astropy
+  version: 1.1.1
+  astropy_helpers: true
+  numpy_compiled_extensions: true
+
 - name: astroquery
   # Version should match the version on PyPI. Versions that could be
   # interpereted as numbers (e.g. 0.1) should be enclosed in quotes.
